@@ -301,12 +301,13 @@ var init = function () {
     ctx.font = '20px Arial';
     ctx.fillText('LOOP: ' + ~~LOOP_COUNT + ', FPS: ' + ~~(totalFps / count), 0, 20);
 
+    window.requestAnimationFrame(onLoop);
   };
 
   // load image
-  IMGS = loadImages(IMGS_SRC, function(results){
+  IMGS = loadImages(IMGS_SRC, function(){
     IMG_BG_DATA_ARRAY = getRawImageData(IMG_BG).data;
-    var loop = setInterval(onLoop, 1000/FPS);
+    window.requestAnimationFrame(onLoop);
   });
 
   IMG_BG = IMGS[0];
