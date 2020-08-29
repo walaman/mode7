@@ -1,0 +1,23 @@
+{
+  "name": "mode7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:walaman/mode7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com:walaman/mode7.git/issues"
+  },
+  "homepage": "git+https://github.com:walaman/mode7.git#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"; />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+        <meta charset='utf-8' />
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png" />
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<!--link rel="stylesheet" href="css/main.css"-->
+
+		<style>
+
+		  body {
+		  	background-color : grey;
+		  	padding : 0px;
+		  	margin : 0px;
+		  	overflow: hidden;
+		  }
+		  h1 {
+		  	color : blue;
+		  }
+		  p {
+		  	color : green;
+		  }
+
+		  #game_canvas {
+			position: absolute;
+			image-rendering: 		-moz-crisp-edges;
+			image-rendering: 		-o-crisp-edges;
+			image-rendering: 		-webkit-optimize-contrast;
+			image-rendering: 		crisp-edges;
+			-ms-interpolation-mode: nearest-neighbor;
+			-webkit-transform: 		scale3d(1,1,1);
+		  }
+
+		</style>
+
+	</head>
+	<body>
+		
+		<canvas id="game_canvas"></canvas>
+		<script type="text/javascript" src="mode7.js"></script>
+
+
+	</body>
+</html>
